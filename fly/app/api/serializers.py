@@ -5,4 +5,3 @@ class ModuleSerializer(serializers.ModelSerializer):
     class Meta:
         model = Module
         fields = '__all__'
-        #fields = ['id', 'number', 'name', 'description',]
