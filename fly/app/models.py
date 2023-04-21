@@ -14,7 +14,6 @@ class Module(models.Model):
     def get_absolute_url(self):
         return reverse('module', kwargs={'slug': self.slug})
 
-
     class Meta:
         verbose_name = 'Образовательный модуль'
         verbose_name_plural = 'Образовательные модули'
